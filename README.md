@@ -7,7 +7,7 @@
 
 ---
 
-## 1. AMD RDNA Wave32 Target - FP32 Single Pipeline
+
 ```glsl
 #version 460
 #extension GL_KHR_shader_subgroup_basic: require
