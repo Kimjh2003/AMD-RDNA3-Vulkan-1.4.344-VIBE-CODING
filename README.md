@@ -1,7 +1,9 @@
 # AMD-RDNA3-Vulkan-1.4.344-VIBE-CODING
-흔한 폰덕후의 Gemini 3.5 Flash Lite 모델과
-협력해본 바이브코딩 (Feat. AMD RDNA3)
 
-# Vulkan 1.4 & Low-Level ISA Pipeline Archive
-> **Target Architectures:** AMD RDNA3 (Wave32/Wave64) & ARM SVE2/SME2
-> **Key Features:** Low-Level Parallel Compute, Subgroup Reduction, Packed SIMD Operations, Buffer Alignment Guard
+AMD RDNA3를 타겟 ISA로 지정하여
+Vulkan 1.4.344 API를 기반으로
+WaveFront 32/64 분배 전제 조건 설정 후
+FP16 , INT8 중첩 연산 및
+각 정밀도에 대한 연산 로직을 바이브 코딩 산출로 시연해 봤습니다
+실 구동은 해보지 않은 관계로 구현하시는 프로그램에
+써보신 다음 시연해보시고 피드백 및 출처 남기기 부탁드립니다
